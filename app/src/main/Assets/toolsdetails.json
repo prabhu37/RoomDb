@@ -1,0 +1,54 @@
+{
+  "tools": [
+    {
+      "name": "Wrench",
+      "image": "wrench",
+      "quantity": 6
+    },
+    {
+      "name": "Cutter",
+      "image": "cutter",
+      "quantity": 15
+    },
+    {
+      "name": "Pliers",
+      "image": "pliers",
+      "quantity": 12
+    },
+    {
+      "name": "Screwdrivers",
+      "image": "screwdrivers",
+      "quantity": 13
+    },
+    {
+      "name": "Welding machine",
+      "image": "welding_machine",
+      "quantity": 3
+    },
+    {
+      "name": "Welding classes",
+      "image": "welding_class",
+      "quantity": 7
+    },
+    {
+      "name": "Hammer",
+      "image": "hammer",
+      "quantity": 4
+    },
+    {
+      "name": "Measuring Tape",
+      "image": "tape",
+      "quantity": 9
+    },
+    {
+      "name": "Alan key set",
+      "image": "key_set",
+      "quantity": 4
+    },
+    {
+      "name": "Air compressor",
+      "image": "air_compressor",
+      "quantity": 2
+    }
+  ]
+}

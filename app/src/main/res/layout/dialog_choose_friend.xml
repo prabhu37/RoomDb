@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:orientation="vertical"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/ten_dp"
+                android:background="@color/Gray"
+                android:id="@+id/rvChooseFriend"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty_dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="normal"
+                android:text="@string/select_one_friend_to_giving_tool_for_him"
+                android:id="@+id/textOk"
+                android:gravity="center"
+                android:textColor="@color/White"
+                android:background="@color/LightSlateGray"
+                android:layout_below="@+id/rvChooseFriend"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

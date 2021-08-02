@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@color/White"
+              android:layout_height="wrap_content">
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/do_you_return_this_tools"
+              android:padding="@dimen/ten_dp"
+              android:gravity="center"
+              android:layout_marginBottom="@dimen/ten_dp"
+              android:textColor="@color/Black"
+              android:textSize="@dimen/eighteen_sp"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView android:layout_width="@dimen/zero_dp"
+                  android:layout_height="wrap_content"
+                  android:text="@string/no"
+                  android:background="@color/LightGrey"
+                  android:padding="@dimen/ten_dp"
+                  android:gravity="center"
+                  android:id="@+id/textCancel"
+                  android:layout_marginTop="@dimen/ten_dp"
+                  android:layout_marginEnd="@dimen/twenty_dp"
+                  android:layout_marginStart="@dimen/twenty_dp"
+                  android:textColor="@color/IndianRed"
+                  android:textSize="@dimen/sixteen_sp"
+                  android:layout_weight="1"/>
+        <TextView android:layout_width="@dimen/zero_dp"
+                  android:layout_height="wrap_content"
+                  android:textSize="@dimen/sixteen_sp"
+                  android:background="@color/LightGrey"
+                  android:padding="@dimen/ten_dp"
+                  android:text="@string/yes"
+                  android:id="@+id/textOk"
+                  android:gravity="center"
+                  android:layout_marginTop="@dimen/ten_dp"
+                  android:layout_marginEnd="@dimen/twenty_dp"
+                  android:layout_marginStart="@dimen/twenty_dp"
+                  android:textColor="@color/ForestGreen"
+                  android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

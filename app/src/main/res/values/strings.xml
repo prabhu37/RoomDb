@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">RoomDbExample</string>
+    <string name="tools">Tools</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="do_you_return_this_tools">  Do you return this tools?  </string>
+    <string name="no_items_found">No tools found</string>
+    <string name="select_one_friend_to_giving_tool_for_him">Select one friend to giving tool for him</string>
+    <string name="borrowed_item_count">Borrowed Item Count</string>
+    <string name="total_item_count">Total Item Count</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="loaned_item_count">Loaned Item Count</string>
+
+    <string-array name="friends">
+        <item>Brian</item>
+        <item>Luke</item>
+        <item>Letty</item>
+        <item>Shaw</item>
+        <item>Parker</item>
+    </string-array>
+</resources>
